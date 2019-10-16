@@ -30,12 +30,12 @@
 
 		function showNameUpper() {
 			var upCase = document.getElementById('firstname').value;
-			document.getElementById('showfirstname').innerHTML = "Your first name is " + upCase.toUpperCase();
+			document.getElementById('showfirstname').innerHTML = "Your first name is " + upCase;
 		}
 
 		function showNameLower() {
 			var lowCase = document.getElementById('lastname').value;
-			document.getElementById('showlastname').innerHTML = "Your last name is " + lowCase.toLowerCase();
+			document.getElementById('showlastname').innerHTML = "Your last name is " + lowCase;
 		}
 
 		function changeAllText() {
@@ -118,11 +118,11 @@
 		<hr>
 		<label for="firstname">
 			Enter your First name:
-			<input type="text" id="firstname" onchange="showNameUpper()">
+			<input type="text" id="firstname" oninput="showNameUpper()">
 		</label>
 		<label for="lastname">
-			Enter your last name:
-			<input type="text" onchange="showNameLower()" id="lastname">
+			Enter your Last name:
+			<input type="text" id="lastname" oninput="showNameLower()">
 		</label>
 		<br>
 		<p id="showfirstname"></p>
