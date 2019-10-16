@@ -1,0 +1,10 @@
+Color 
+	background-color : lightblue
+	background-color at NavBar : lightgreen
+Text
+	Forest
+		" In forest maybe have something to hide in the forest. Human can not to find it because something want to hide from Human and it do not want to show. "
+	Universe
+		" Out of the Earth maybe have something to hide somewhere that human can not travel to this place. Sometimes it maybe travel through my world. "
+	Amazon
+		" The recent Amazon forest fire has put people in the world worried about the consequences. The impact that can affect the lives of humans and animals around the world may cause the air to breathe less. "
